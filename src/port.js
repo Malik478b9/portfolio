@@ -90,7 +90,7 @@ const Portfolio = () => {
 
   const projects = [
     {
-      title: 'GTN Automation - Padagis Pharmaceuticals',
+      title: 'GTN Automation - Pharmaceuticals Company',
       company: 'Mushroom Solutions',
       period: 'April 2025 - Present',
       description: 'End-to-end data engineering solution streamlining financial data processing.',
@@ -145,17 +145,9 @@ const Portfolio = () => {
       <nav style={{position: 'fixed', top: 0, left: 0, right: 0, zIndex: 50, backgroundColor: 'rgba(2, 6, 23, 0.8)', backdropFilter: 'blur(12px)', borderBottom: '1px solid rgba(59, 130, 246, 0.2)'}}>
         <div style={{maxWidth: '1280px', margin: '0 auto', padding: '0 1rem', display: 'flex', alignItems: 'center', justifyContent: 'space-between', height: '64px'}}>
           <div style={{display: 'flex', alignItems: 'center', gap: '0.5rem'}}>
-            <svg width="40" height="40" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-              <defs>
-                <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-                  <stop offset="0%" style={{stopColor:'#4F46E5', stopOpacity:1}} />
-                  <stop offset="100%" style={{stopColor:'#9333EA', stopOpacity:1}} />
-                </linearGradient>
-              </defs>
-              <rect x="0" y="0" width="100" height="100" rx="23" fill="#1E293B" stroke="url(#borderGrad)" strokeWidth="3"/>
-              <text x="50" y="65" fontFamily="Arial, sans-serif" fontSize="43" fontWeight="700" fill="url(#borderGrad)" textAnchor="middle">M</text>
-              <text x="68" y="48" fontFamily="Arial, sans-serif" fontSize="23" fontWeight="700" fill="#9333EA" textAnchor="middle">H</text>
-            </svg>
+            <div style={{width: '40px', height: '40px', background: 'linear-gradient(to bottom right, #3b82f6, #9333ea)', borderRadius: '8px', display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
+              <Code size={24} />
+            </div>
             <span style={{fontSize: '1.25rem', fontWeight: 'bold', background: 'linear-gradient(to right, #60a5fa, #c084fc)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', backgroundClip: 'text'}}>
               Malik Hussain
             </span>
